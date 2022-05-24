@@ -10,6 +10,7 @@ import UIKit
 /// A type that represents the selector with options froma items.
 open class ReactionButton: UIButton {
     
+    
     public weak var delegate: ReactionButtonDelegate?
     public weak var dataSource: ReactionButtonDataSource?
     
