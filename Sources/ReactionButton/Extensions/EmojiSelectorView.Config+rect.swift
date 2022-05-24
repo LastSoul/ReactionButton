@@ -18,6 +18,7 @@ extension ReactionButton.Config {
             originalPos.x = (UIScreen.main.bounds.width - width) / 2
         }
         
+        
         return CGRect(origin: originalPos, size: CGSize(width: width, height: heightForSize))
     }
     
